@@ -29,13 +29,24 @@ body, html {
 #innerBox {
     background-color: gray;
     color: white;
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 50px;
+    padding-bottom: 90px;
+
 }
 
 .innerMostBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     color: grey;
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#mid_container_right {
+    padding-bottom: 140px;
 }
